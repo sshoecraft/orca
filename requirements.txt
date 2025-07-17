@@ -1,0 +1,45 @@
+# Orca Job Orchestrator Backend Dependencies
+# Python 3.11+ required
+
+# FastAPI and ASGI server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database and ORM
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+alembic==1.12.1
+
+# Authentication and Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Remote connections
+paramiko==3.3.1
+pywinrm==0.4.3
+
+# Encryption
+cryptography==41.0.7
+
+# Data validation and settings
+pydantic==2.5.0
+pydantic-settings==2.0.3
+
+# HTTP client (for testing)
+httpx==0.25.2
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Environment management
+python-dotenv==1.0.0
+
+# Type hints
+typing-extensions==4.8.0
