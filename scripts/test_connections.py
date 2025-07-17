@@ -23,7 +23,7 @@ async def test_ssh_connection():
     # Test system details from TESTUSER.md
     hostname = '10.30.167.4'  # steve-tools
     username = 'testuser'
-    password = 'hD1kBJ78VCyZawi'
+    password = 'XXX'
     port = 22
     
     try:
@@ -68,7 +68,7 @@ async def test_winrm_connection():
     # Test system details from TESTUSER.md
     hostname = '10.16.120.5'  # steve-desktop
     username = 'testuser'
-    password = 'hD1kBJ78VCyZawi'
+    password = 'XXX'
     port = 5985
     
     try:
