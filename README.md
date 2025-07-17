@@ -4,6 +4,11 @@
 
 A powerful job orchestrator designed to manage and execute commands across multiple remote systems with an intuitive web-based interface.
 
+**🔗 Repository**: https://github.com/sshoecraft/orca  
+**📊 Status**: Production Ready ✅  
+**📄 License**: MIT  
+**🏷️ Topics**: job-orchestrator, python, react, postgresql, ssh, winrm, automation, devops
+
 ## 🌊 Overview
 
 Orca is a modern job orchestration platform that enables centralized management and execution of commands across heterogeneous system environments. With support for both Windows and Linux systems, Orca provides secure, scalable, and user-friendly command execution with real-time monitoring and comprehensive audit trails.
@@ -133,7 +138,7 @@ The system meets its goals when:
 ### Frontend
 - **Language**: TypeScript
 - **Framework**: React 18 with Vite
-- **UI Library**: Material-UI or Ant Design
+- **UI Library**: Material-UI
 - **State Management**: Redux Toolkit
 - **HTTP Client**: Axios with interceptors
 
@@ -283,6 +288,15 @@ We welcome contributions! Please see our [Developer Guide](docs/DEVELOPER_GUIDE.
 - Testing requirements
 - Pull request process
 
+## 📈 Roadmap & Issues
+
+Check out our GitHub Issues for planned enhancements:
+
+- **[🎨 Code Quality Improvements](https://github.com/sshoecraft/orca/issues/1)** - Formatting and standards
+- **[🔒 Security Enhancements](https://github.com/sshoecraft/orca/issues/2)** - Advanced security and environment management
+- **[⚡ Performance Optimizations](https://github.com/sshoecraft/orca/issues/3)** - Scalability improvements
+- **[🚀 Advanced Features](https://github.com/sshoecraft/orca/issues/4)** - Scheduling, notifications, and workflows
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -290,16 +304,19 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙋‍♂️ Support
 
 - **Documentation**: Check the `docs/` directory for comprehensive guides
-- **Issues**: Report bugs and feature requests via GitHub Issues
-- **Community**: Join our discussions for questions and support
+- **Issues**: Report bugs and feature requests via [GitHub Issues](https://github.com/sshoecraft/orca/issues)
+- **Discussions**: Join our [GitHub Discussions](https://github.com/sshoecraft/orca/discussions) for questions and support
 
-## 🗺️ Roadmap
+## 🗺️ Version History
 
-### Current Version (v1.0)
+### Current Version (v1.0.0) ✅
 - ✅ Basic job orchestration
 - ✅ Windows and Linux support
 - ✅ Web-based interface
 - ✅ Real-time monitoring
+- ✅ JWT authentication
+- ✅ Encrypted credential storage
+- ✅ Comprehensive documentation
 
 ### Upcoming Features (v1.1)
 - 🔄 Job scheduling and cron-like functionality
@@ -318,3 +335,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 🐋 **Orca Job Orchestrator** - Orchestrating your systems, one command at a time.
 
 Made with ❤️ by the Orca team
+
+[![GitHub stars](https://img.shields.io/github/stars/sshoecraft/orca?style=social)](https://github.com/sshoecraft/orca/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/sshoecraft/orca)](https://github.com/sshoecraft/orca/issues)
+[![GitHub license](https://img.shields.io/github/license/sshoecraft/orca)](https://github.com/sshoecraft/orca/blob/main/LICENSE)
